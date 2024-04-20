@@ -3,6 +3,7 @@ import 'package:flutterapp/screens/workout/MyWorkout.dart';
 import '../component/bottom-navigation-bar.dart';
 import '../component/explorepage.dart';
 import '../component/statics.dart';
+import '../component/yoga.dart';
 import 'Home.dart';
 
 
@@ -20,7 +21,7 @@ class _HomeState extends State<ContainerPage> {
     Home(),
     ExplorePage(),
     MyWorkout(),
-    StaticPage(),
+    YogaPage(),
     StaticPage(),
   ];
   late List<GlobalKey<NavigatorState>> _navigatorKeys;
